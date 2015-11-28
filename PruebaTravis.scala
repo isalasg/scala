@@ -4,7 +4,7 @@ object PruebaTravis {
 		imprimeLista(ListaAlumnos)
 	}
 
-	def imprimeLista(ListaAlumnos : List) = {
+	def imprimeLista(ListaAlumnos : List) {
 		if (!ListaAlumnos.isEmpty) {
 			println(ListaAlumnos.head)
 			imprimeLista(ListaAlumnos.tail)
